@@ -69,20 +69,20 @@ footer {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   gap: 20px;
 }
-.footer-address {
+.data-address {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.footer-link {
+.data-link {
   text-decoration: none;
   color: black;
   cursor: pointer;
   padding: 5px 0;
 }
-/* to top btn*/
-.to-top-btn {
+/*top */
+.top {
   position: fixed;
   right: 2%;
   bottom: 2%;
@@ -93,12 +93,12 @@ footer {
   border-radius: 50%;
 }
 
-.to-top-btn:hover {
+.top:hover {
   background-color: rgb(235, 235, 235);
   transition: 0.3s;
 }
 
-.to-top-img {
+.top-img {
   width: 50px;
 }
 
