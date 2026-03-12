@@ -59,6 +59,21 @@ nav {
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.car {        
+    margin: 0 auto;      
+}
+
+.car th,
+.car td{
+    border: 3px solid teal;
+    text-align: center;
+}
+
+.car caption{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 /* footer*/
 footer {
   display: flex;
