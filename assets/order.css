@@ -22,15 +22,15 @@ h1 {
 }
 
 legend {
-font-size: 24px;         /* Увеличиваем размер (было 18px) */
- padding: 0 15px;         /* Немного увеличиваем отступы по бокам от линии */
-text-align: left;        /* Оставляем выравнивание слева */
+font-size: 25px;       
+ padding: 0 15px;         
+text-align: left;        
 }
 
 .color-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 20px;
+  gap: 10px 20px;;
   max-width: 200px;
 }
 
