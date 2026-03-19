@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  background: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* MAIN CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+legend {
+font-size: 24px;         /* Увеличиваем размер (было 18px) */
+ padding: 0 15px;         /* Немного увеличиваем отступы по бокам от линии */
+text-align: left;        /* Оставляем выравнивание слева */
+}
+
+.color-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  max-width: 200px;
+}
+
+/* BLOCKS */
+.block {
+  border: 1px solid #000000;
+  padding: 20px;
+  background: #ffffff;
+  position: relative;
+  width: 300px;
+  display: flex;          
+  flex-direction: column; 
+  gap: 15px;
+}
+
+/* LABELS */
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* INPUTS */
+input,
+select,
+textarea {
+  flex: 1;
+  padding: 3px;
+}
+
+/* ROW (for radio/checkbox groups) */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* TEXTAREA */
+textarea {
+  resize: none;
+  height: 50px;
+}
+
+/* RANGE TEXT */
+.range-values {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: -10px; 
+  font-size: 12px;
+}
+input[type="range"] {
+  width: 100%;
+}
+
+/* BUTTONS */
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+button {
+    padding: 10px 30px; 
+    border-radius: 8px; 
+    background-color: #eeeeee; 
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+button[type="reset"] {
+  background: #ccc;
+  border: 1px solid black;
+}
+
+button[type="submit"] {
+  background: #ccc;
+  border: 1px solid black;
+}
+
+button:hover {
+  background: #ccc;
+}

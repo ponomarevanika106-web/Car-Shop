@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Order Form</title>
+    <link rel="stylesheet" href="/assets/order.css">
+</head>
+<body>
+
+<h1>Home work for CSS flexbox</h1>
+
+<form class="container">
+
+    <!-- Personal Info -->
+    <fieldset class="block">
+        <legend>Personal info</legend>
+
+        <label>First Name <input type="text"></label>
+        <label>Last Name <input type="text"></label>
+        <label>Birthday <input type="date"></label>
+
+        <div class="row">
+            <span>Gender</span>
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+        </div>
+
+        <label>Drive experience
+            <select>
+                <option>---</option>
+                <option>beginner</option>
+                <option>less than 2</option>
+                <option>2-5</option>
+                <option>5-10</option>
+                <option>more than 10</option>
+                <option>expert</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <!-- Contacts -->
+    <fieldset class="block">
+        <legend>Contacts</legend>
+
+        <label>Email <input type="email"></label>
+        <label>Phone <input type="text"></label>
+        <label>Address <textarea></textarea></label>
+    </fieldset>
+
+    <!-- Car Info -->
+    <fieldset class="block">
+        <legend>Car info</legend>
+
+        <label>Brand
+            <select>
+                <option>---</option>
+                <option>Ford</option>
+                <option>Volkswagen</option>
+                <option>BMW</option>
+            </select>
+        </label>
+
+        <label>Model
+            <select>
+                <option>---</option>
+                <option>Model T</option>
+                <option>Mustang</option>
+                <option>Beetle</option>
+                <option>Golf</option>
+                <option>3 Series</option>
+                <option>X5</option>
+            </select>
+        </label>
+
+        <label class="row">
+            Used <input type="checkbox">
+        </label>
+
+        <div class="row">
+            <span>Color</span>
+            <label>Red <input type="radio" name="color"></label>
+            <label>Black <input type="radio" name="color"></label>
+            <label>Blue <input type="radio" name="color"></label> 
+            <label>White <input type="radio" name="color"></label>
+            <label>Grey <input type="radio" name="color"></label>
+        </div>
+
+       <div class="range">
+  <label>Price</label>
+  <input type="range" min="10" max="80" step="10">
+
+  <div class="range-values">
+    <span>10</span>
+    <span>20</span>
+    <span>30</span>
+    <span>40</span>
+    <span>50</span>
+    <span>60</span>
+    <span>70</span>
+    <span>80</span>
+  </div>
+</div>
+</fieldset>
+<div class="buttons">
+ <button type="reset">Cancel</button>
+ <button type="submit">Ok</button>
+</div>
+</form>
+</body>
+</html>
